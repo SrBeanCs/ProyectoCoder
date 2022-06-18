@@ -1,0 +1,539 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: Helvetica, Arial, sans-serif;
+	color: #666;
+	background: #f2f2f2; 
+	font-size: 1em;
+	line-height: 1.5em;
+}
+h1 {
+	font-size: 2.3em;
+    color: red;
+	line-height: 1.3em;
+	margin: 15px;
+  text-align:center;
+	font-weight: 300;
+  
+}
+p {
+	margin: 0 0 1.5em 0;
+}
+
+h2 {
+
+  line-height: 20pt; 
+text-align:center;
+
+
+}
+
+img {
+
+  display: block;
+margin-left: 120px; 
+margin-right: auto;
+justify-content: center;
+
+}
+
+.ofertas img
+
+{
+  display: flex;
+  justify-content: center;
+}
+
+
+#main-header {
+	background: #333;
+	color: white;
+	height: 80px;
+}	
+	#main-header a {
+		color: white;
+	}
+
+/*
+ * Logo
+ */
+#logo-header {
+	float: left;
+	padding: 15px 0 0 20px;
+	text-decoration: none;
+}
+	#logo-header:hover {
+		color: #0b76a6;
+	}
+	
+	#logo-header .site-name {
+		display: block;
+		font-weight: 700;
+		font-size: 1.2em;
+	}
+	
+	#logo-header .site-desc {
+		display: block;
+		font-weight: 300;
+		font-size: 0.8em;
+		color: #999;
+	}
+	
+
+/*
+ * Navegación
+ */
+.topnav {
+	float: right;
+}
+	.topnav {
+		margin: 5;
+		padding: 5px;
+		list-style: none;
+		padding-right: 20px;
+	}
+	
+		.topnav ul li {
+			display: inline-block;
+			line-height: 100px;
+		}
+			
+			.topnav ul li a {
+				display: block;
+				padding: 0 10px;
+				text-decoration: none;
+			}
+			
+			 .topnav ul li a:hover {
+					background: #0b76a6;
+				}
+
+                #main-content {
+                    background: white;
+                    width: 90%;
+                    max-width: 800px;
+                    margin: 20px auto;
+                    box-shadow: 0 0 10px rgba(0,0,0,.1);
+                }
+                
+                    #main-content header,
+                    #main-content .content {
+                        padding: 40px;
+                    }
+
+                    #main-footer {
+                        background: #333;
+                        color: white;
+                        text-align: center;
+                        padding: 20px;
+                        margin-top: 40px;
+                    }
+                        #main-footer p {
+                            margin: 0;
+                        }
+                        
+                        #main-footer a {
+                            color: white;
+                        }
+
+                        #main-header {
+                            background: #333;
+                            color: white;
+                            height: 80px;
+                            
+                            width: 100%; /* hacemos que la cabecera ocupe el ancho completo de la página */
+                            left: 0; /* Posicionamos la cabecera al lado izquierdo */
+                            top: 0; /* Posicionamos la cabecera pegada arriba */
+                            position: static; /* Hacemos que la cabecera tenga una posición fija */
+                        }
+
+                        body {
+                            font-family: "Gotham Book", Open Sans, Tahoma, sans-serif;
+                            margin: 0;
+                            padding: 0;
+                            background-color: #d9d9d9;
+                            font-size: 100%;
+                          }
+                          
+                          .booking-widget {
+                            margin: 40px auto;
+                            
+                          }
+                          
+                          .imgcabecera
+
+                          {
+                            display: flex;
+                            justify-content: center;
+
+                          }
+
+                          .booking-widget {
+                            box-sizing: border-box;
+                            width: 345px;
+                            min-height: 605px;
+                            padding-bottom: 1px;
+                            background-color: #fbfbfb;
+                            border-radius: 5px;
+                            box-shadow: 1px 1px 3px rgba(0, 0, 0, .44);
+                            position: static;
+                          }
+                          
+                          .booking-widget__header {
+                            width: 100%;
+                            height: 200px;
+                            border-radius: 5px 5px 0 0;
+                            overflow: hidden;
+                            position: relative;
+                            box-shadow: 1px 0px 3px rgba(0, 0, 0, .44);
+                          }
+                          
+                          .booking-widget__header figure {
+                            margin: 0;
+                            padding: 0;
+                          }
+                          
+                          .header-caption {
+                            position: absolute;
+                            bottom: 20px;
+                            left: 25px;
+                            color: white;
+                          }
+                          
+                          .header-caption h3 {
+                            padding: 0;
+                            margin: 0;
+                            font-size: 25px;
+                          }
+                          
+                          .booking-widget__form {
+                            list-style-type: none;
+                            padding: 0 25px 0 25px;
+                            margin: 0;
+                          }
+                          
+                          .booking-widget__form li {
+                            margin: 25px 0;
+                          }
+                          
+                          .form-field {
+                            position: relative;
+                            background-color: #f4f4f4;
+                            margin-top: 10px;
+                            box-shadow: -1px -1px 1px rgba(0, 0, 0, 0.25);
+                          }
+                          
+                          .form-field__checkbox {
+                            display: inline-block;
+                            width: 20px;
+                          }
+                          
+                          .form-field__checkbox input[type='checkbox'] {
+                            width: 100%;
+                            opacity: .0;
+                          }
+                          
+                          .form-field__checkbox input[type='checkbox']:checked {
+                            opacity: 1;
+                          }
+                          
+                          
+                          .form-field label {
+                            color: #666666;
+                          } 
+                          
+                          .datepicker, .select-button {
+                            box-sizing: border-box;
+                            position: absolute;
+                            top: 3px;
+                            right: 3px;
+                            width: 38px;
+                            height: 38px;
+                            border-radius: 5px;
+                            font-size: 18px;
+                            text-align: center;
+                            line-height: 38px;
+                            background-color: #414b59;
+                            color: white;
+                          }
+                          
+                          .form-field input[type='text'],
+                          .form__dropdown select {
+                            height: 45px;
+                            width: 100%;
+                            padding: 0 0 0 3px;
+                            background-color: #f4f4f4;
+                            border: none;
+                          }
+                          
+                          .form__dropdown {
+                            box-sizing: border-box;
+                            display: inline-block;
+                            width: 45%;
+                            padding: 5px;
+                          }
+                          
+                          .form__dropdown:last-child {
+                            float: right;
+                          }
+                          
+                          .form__submit {
+                            width: 100%;
+                            height: 58px;
+                            border: 1px solid transparent;
+                            font-size: 15px;
+                            background-color: #fb6362;
+                            color: white;
+                            text-transform: uppercase;
+                            box-shadow: 0px 1px 1px 0 darkgrey;
+                            border-radius: 5px;
+                            cursor: pointer;
+                          }
+
+/* ESTO ES PARA EL FORMULARIO DE CONTACTO */
+
+
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+
+html {
+  font-family: 'Montserrat', Arial, sans-serif;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  background: #F2F3EB;
+}
+
+button {
+  overflow: visible;
+}
+
+button, select {
+  text-transform: none;
+}
+
+button, input, select, textarea {
+  color: #5A5A5A;
+  font: inherit;
+  margin: 0;
+}
+
+input {
+  line-height: normal;
+}
+
+textarea {
+  overflow: auto;
+}
+
+#container {
+  border: solid 3px #474544;
+  max-width: 768px;
+  margin: 60px auto;
+  position: relative;
+}
+
+form {
+  padding: 37.5px;
+  margin: 50px 0;
+}
+
+h1 {
+  color: #474544;
+  font-size: 32px;
+  font-weight: 700;
+  letter-spacing: 7px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.underline {
+  border-bottom: solid 2px #474544;
+  margin: -0.512em auto;
+  width: 80px;
+}
+
+.icon_wrapper {
+  margin: 50px auto 0;
+  width: 100%;
+}
+
+.icon {
+  display: block;
+  fill: #474544;
+  height: 50px;
+  margin: 0 auto;
+  width: 50px;
+}
+
+.email {
+	float: right;
+	width: 45%;
+}
+
+input[type='text'], [type='email'], select, textarea {
+	background: none;
+  border: none;
+	border-bottom: solid 2px #474544;
+	color: #474544;
+	font-size: 1.000em;
+  font-weight: 400;
+  letter-spacing: 1px;
+	margin: 0em 0 1.875em 0;
+	padding: 0 0 0.875em 0;
+  text-transform: uppercase;
+	width: 100%;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	box-sizing: border-box;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	-ms-transition: all 0.3s;
+	-o-transition: all 0.3s;
+	transition: all 0.3s;
+}
+
+input[type='text']:focus, [type='email']:focus, textarea:focus {
+	outline: none;
+	padding: 0 0 0.875em 0;
+}
+
+.message {
+	float: none;
+}
+
+.name {
+	float: left;
+	width: 45%;
+}
+
+select {
+  background: url('https://cdn4.iconfinder.com/data/icons/ionicons/512/icon-ios7-arrow-down-32.png') no-repeat right;
+  outline: none;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+}
+
+select::-ms-expand {
+  display: none;
+}
+
+.subject {
+  width: 100%;
+}
+
+.telephone {
+  width: 100%;
+}
+
+textarea {
+	line-height: 150%;
+	height: 150px;
+	resize: none;
+  width: 100%;
+}
+
+::-webkit-input-placeholder {
+	color: #474544;
+}
+
+:-moz-placeholder { 
+	color: #474544;
+	opacity: 1;
+}
+
+::-moz-placeholder {
+	color: #474544;
+	opacity: 1;
+}
+
+:-ms-input-placeholder {
+	color: #474544;
+}
+
+#form_button {
+  background: none;
+  border: solid 2px #474544;
+  color: #474544;
+  cursor: pointer;
+  display: inline-block;
+  font-family: 'Helvetica', Arial, sans-serif;
+  font-size: 0.875em;
+  font-weight: bold;
+  outline: none;
+  padding: 20px 35px;
+  text-transform: uppercase;
+  -webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	-ms-transition: all 0.3s;
+	-o-transition: all 0.3s;
+	transition: all 0.3s;
+}
+
+#form_button:hover {
+  background: #474544;
+  color: #F2F3EB;
+}
+
+@media screen and (max-width: 768px) {
+  #container {
+    margin: 20px auto;
+    width: 95%;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  h1 {
+    font-size: 26px;
+  }
+  
+  .underline {
+    width: 68px;
+  }
+  
+  #form_button {
+    padding: 15px 25px;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  h1 {
+    font-size: 18px;
+  }
+  
+  .icon {
+    height: 35px;
+    width: 35px;
+  }
+  
+  .underline {
+    width: 53px;
+  }
+  
+  input[type='text'], [type='email'], select, textarea {
+    font-size: 0.875em;
+  }
+}
+
+.formularioinfo 
+{
+
+text-align:center
+
+}
+
+/* ESTO ES PARA LA SECCION DE SOBRE NOSOTROS*/
+
+.sobreNosotros
+
+{
+
+text-align:center
+
+
+}
+
+
